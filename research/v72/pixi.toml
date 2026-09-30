@@ -1,0 +1,24 @@
+[workspace]
+authors = ["Neil Lu <neil.lu@anu.edu.au>"]
+channels = ["conda-forge"]
+name = "qnmrf_workingNL"
+platforms = ["linux-64", "osx-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+pip = ">=26.0.1,<27"
+gwpy = "<4.0.0"
+gwsurrogate = ">=1.1.8,<2"
+astropy = "<6.0.0"
+scipy = "<1.15.0"
+natsort = ">=8.4.0,<9"
+numpy = ">=1.26,<2"
+h5py = ">=3.10,<4"
+# The conda-forge distribution that supplies the headless `matplotlib` import.
+matplotlib-base = ">=3.8,<4"
+
+[pypi-dependencies]
+qnm_filter = { path = "qnm_filter_code", editable = true }

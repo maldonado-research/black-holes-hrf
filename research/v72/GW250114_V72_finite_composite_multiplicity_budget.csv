@@ -1,0 +1,7 @@
+n_competitors,bonferroni_miss_probability_per_competitor,normal_quantile,required_pairwise_distance,max_q_eff_at_old_gap,max_q_eff_at_old_gap_percent,qualification
+1,0.09999999999999998,1.2815515655446008,3.7810604375308374,0.0011519090213259128,0.11519090213259128,conservative intersection rule; endpoint score is not a composite Bayes factor
+2,0.04999999999999999,1.6448536269514715,4.348686765309588,0.001001552391152782,0.1001552391152782,conservative intersection rule; endpoint score is not a composite Bayes factor
+3,0.033333333333333326,1.8339146358159142,4.656752406118684,0.0009352950829955014,0.09352950829955013,conservative intersection rule; endpoint score is not a composite Bayes factor
+5,0.019999999999999997,2.053748910631822,5.024111645031358,0.0008669070147908886,0.08669070147908885,conservative intersection rule; endpoint score is not a composite Bayes factor
+10,0.009999999999999998,2.3263478740408408,5.491322536979302,0.000793149118238853,0.0793149118238853,conservative intersection rule; endpoint score is not a composite Bayes factor
+20,0.004999999999999999,2.5758293035489,5.928450186829517,0.0007346671543004942,0.07346671543004941,conservative intersection rule; endpoint score is not a composite Bayes factor

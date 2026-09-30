@@ -1,0 +1,316 @@
+{
+  "version": "GW250114_HRF_v72_raw_surface_comparison_v1",
+  "status": "PASS",
+  "scope": "FIXED_CONDITIONING_MINUS7M_85_BY_40_GRID_ONLY",
+  "baseline_bundle_sha256": "1d0154178d6cf2c478d69fe5fa654957a0e548803c70a26eb19563ea653422d5",
+  "candidate_preflight": {
+    "name": "GW250114_V72_RAW_PREFLIGHT.json",
+    "sha256": "41d185c36525013890eb40601f98f4eb8f871d6672ed447d427521f4dfd65b92",
+    "qnm_filter_source": {
+      "git_commit": "55f14436d4ea510b71754b95da9701009e8a1c12",
+      "git_tree": "377f807dd345a138c32d274f3cb746f60dd0cecf",
+      "worktree_clean": true,
+      "import_module_relative_path": "qnm_filter/__init__.py"
+    },
+    "runtime": {
+      "python": {
+        "implementation": "cpython",
+        "version": "3.11.15",
+        "major_minor": "3.11"
+      },
+      "pixi_version_output": "pixi 0.76.2",
+      "package_versions": {
+        "numpy": "1.26.4",
+        "scipy": "1.14.1",
+        "h5py": "3.16.0",
+        "matplotlib": "3.11.0",
+        "astropy": "5.3.4",
+        "gwpy": "3.0.14",
+        "gwsurrogate": "1.1.8",
+        "qnm-filter": "0.1"
+      }
+    }
+  },
+  "comparison_rule": {
+    "log_likelihood_additive_offset_removed": true,
+    "centered_max_abs_tolerance": 1e-05,
+    "grid_axes_and_argmax_indices_must_be_exact": true
+  },
+  "comparisons": {
+    "released_logL_plus_logprior": {
+      "baseline_file": {
+        "name": "GW250114_V72_RAW_MINUS7M_released_logL_plus_logprior_surfaces.npz",
+        "sha256": "5e60882b6ff765517f006a9a2c250806833faf1fbff9cb52d81ece23ca1913df"
+      },
+      "candidate_file": {
+        "name": "GW250114_V72_RAW_MINUS7M_released_logL_plus_logprior_surfaces.npz",
+        "sha256": "ff329f71c003e054a4250e990a84c06d5427b9a53c045d5592ccba895416dc14"
+      },
+      "axes_exact": true,
+      "surfaces": {
+        "H1": {
+          "shape_and_finite": true,
+          "baseline_argmax_index": [
+            34,
+            20
+          ],
+          "candidate_argmax_index": [
+            34,
+            20
+          ],
+          "argmax_exact": true,
+          "candidate_minus_baseline": {
+            "mean_additive_offset": 8.41960551370261e-07,
+            "standard_deviation": 1.6628305170998453e-07,
+            "peak_to_peak": 5.930504585194285e-07,
+            "max_abs_without_offset_removal": 1.127850623561244e-06,
+            "centered_max_abs": 3.0716038632844547e-07,
+            "centered_rms": 1.6628305170998453e-07
+          },
+          "centered_difference_within_tolerance": true
+        },
+        "L1": {
+          "shape_and_finite": true,
+          "baseline_argmax_index": [
+            46,
+            19
+          ],
+          "candidate_argmax_index": [
+            46,
+            19
+          ],
+          "argmax_exact": true,
+          "candidate_minus_baseline": {
+            "mean_additive_offset": 5.838033784504445e-09,
+            "standard_deviation": 3.918570202973455e-09,
+            "peak_to_peak": 1.3921749086875934e-08,
+            "max_abs_without_offset_removal": 1.2909254110127222e-08,
+            "centered_max_abs": 7.0712203256227764e-09,
+            "centered_rms": 3.918570202973455e-09
+          },
+          "centered_difference_within_tolerance": true
+        },
+        "network": {
+          "shape_and_finite": true,
+          "baseline_argmax_index": [
+            40,
+            20
+          ],
+          "candidate_argmax_index": [
+            40,
+            20
+          ],
+          "argmax_exact": true,
+          "candidate_minus_baseline": {
+            "mean_additive_offset": 8.477985853219519e-07,
+            "standard_deviation": 1.6236904036416628e-07,
+            "peak_to_peak": 5.796298410132295e-07,
+            "max_abs_without_offset_removal": 1.1272113624727353e-06,
+            "centered_max_abs": 3.0021706386244605e-07,
+            "centered_rms": 1.6236904036416628e-07
+          },
+          "centered_difference_within_tolerance": true
+        }
+      },
+      "detector_additivity_implementation_identity": {
+        "baseline_max_abs": 1.1368683772161603e-13,
+        "candidate_max_abs": 1.1368683772161603e-13,
+        "threshold": 1e-10
+      },
+      "released_cached_surface_exact": true
+    },
+    "maximum_log_likelihood_released_row": {
+      "baseline_file": {
+        "name": "GW250114_V72_RAW_MINUS7M_maximum_log_likelihood_released_row_surfaces.npz",
+        "sha256": "f0dc7af357f77bf759f8baf735436503aeb0d154a9c8f662fbc72d31fc90f496"
+      },
+      "candidate_file": {
+        "name": "GW250114_V72_RAW_MINUS7M_maximum_log_likelihood_released_row_surfaces.npz",
+        "sha256": "2bf4ee322c00ff6ef0250fa5e5b64d86c546e228f9445f865081d23e5ab69991"
+      },
+      "axes_exact": true,
+      "surfaces": {
+        "H1": {
+          "shape_and_finite": true,
+          "baseline_argmax_index": [
+            31,
+            21
+          ],
+          "candidate_argmax_index": [
+            31,
+            21
+          ],
+          "argmax_exact": true,
+          "candidate_minus_baseline": {
+            "mean_additive_offset": -3.2555720985235036e-06,
+            "standard_deviation": 8.864039746971917e-08,
+            "peak_to_peak": 3.1686465717939427e-07,
+            "max_abs_without_offset_removal": 3.3801524068621802e-06,
+            "centered_max_abs": 1.922843488407177e-07,
+            "centered_rms": 8.864039746971917e-08
+          },
+          "centered_difference_within_tolerance": true
+        },
+        "L1": {
+          "shape_and_finite": true,
+          "baseline_argmax_index": [
+            43,
+            21
+          ],
+          "candidate_argmax_index": [
+            43,
+            21
+          ],
+          "argmax_exact": true,
+          "candidate_minus_baseline": {
+            "mean_additive_offset": 6.750853160878357e-08,
+            "standard_deviation": 1.67675485294839e-09,
+            "peak_to_peak": 6.0997535911155865e-09,
+            "max_abs_without_offset_removal": 7.028540949249873e-08,
+            "centered_max_abs": 3.322875707400432e-09,
+            "centered_rms": 1.67675485294839e-09
+          },
+          "centered_difference_within_tolerance": true
+        },
+        "network": {
+          "shape_and_finite": true,
+          "baseline_argmax_index": [
+            37,
+            20
+          ],
+          "candidate_argmax_index": [
+            37,
+            20
+          ],
+          "argmax_exact": true,
+          "candidate_minus_baseline": {
+            "mean_additive_offset": -3.1880635647078582e-06,
+            "standard_deviation": 8.697640150309617e-08,
+            "peak_to_peak": 3.1119907362153754e-07,
+            "max_abs_without_offset_removal": 3.309866769996006e-06,
+            "centered_max_abs": 1.8939586833338971e-07,
+            "centered_rms": 8.697640150309617e-08
+          },
+          "centered_difference_within_tolerance": true
+        }
+      },
+      "detector_additivity_implementation_identity": {
+        "baseline_max_abs": 1.1368683772161603e-13,
+        "candidate_max_abs": 1.1368683772161603e-13,
+        "threshold": 1e-10
+      },
+      "released_cached_surface_exact": true
+    }
+  },
+  "self_test": {
+    "passed": 26,
+    "total": 26,
+    "tests": [
+      {
+        "test": "candidate_preflight_passed",
+        "pass": true
+      },
+      {
+        "test": "candidate_preflight_fixed_conditioning_scope",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_axes_exact",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_H1_shape_and_finite",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_H1_argmax_exact",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_H1_centered_difference_within_tolerance",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_L1_shape_and_finite",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_L1_argmax_exact",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_L1_centered_difference_within_tolerance",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_network_shape_and_finite",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_network_argmax_exact",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_network_centered_difference_within_tolerance",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_detector_additivity_identity",
+        "pass": true
+      },
+      {
+        "test": "released_logL_plus_logprior_released_cached_surface_exact",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_axes_exact",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_H1_shape_and_finite",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_H1_argmax_exact",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_H1_centered_difference_within_tolerance",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_L1_shape_and_finite",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_L1_argmax_exact",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_L1_centered_difference_within_tolerance",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_network_shape_and_finite",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_network_argmax_exact",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_network_centered_difference_within_tolerance",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_detector_additivity_identity",
+        "pass": true
+      },
+      {
+        "test": "maximum_log_likelihood_released_row_released_cached_surface_exact",
+        "pass": true
+      }
+    ]
+  },
+  "qualification": "This receipt compares numerical replay surfaces for the fixed-conditioning -7M grid up to an irrelevant additive log-likelihood constant. It does not reproduce the full Nature inference or establish HRF, area-quantization, or quantum-horizon evidence."
+}

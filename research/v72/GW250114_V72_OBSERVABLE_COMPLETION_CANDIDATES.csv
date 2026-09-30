@@ -1,0 +1,16 @@
+candidate,local_rank_status,global_or_calibration_condition,current_event_status,priority
+raw joint direct-wave timescale plus product coordinate,potentially complete,timescale likelihood must remain nonproduct after remnant trajectory calibration and PSD nuisance,conditional raw surfaces only detector-specific remnant inference absent,highest
+nonproportional delays g_i_equals_t_F_i_tau,locally complete in stipulated independent two-observable one-shared-log-timescale model iff d_ln_F1_d_ln_tau differs from d_ln_F2_d_ln_tau,any additional beta calibration phase amplitude remnant or trajectory nuisance adds columns and bounded physical images must remain disjoint,no concrete calibrated waveform implemented,high
+echo timing with kappa_Delta_t_echo_equals_tau,potentially complete,echo delay alone may reproduce the same copy delay or product and only an independently constrained Kerr scale kappa makes it nonproduct while the echo search null must also be calibrated,not executed,high
+echo-train amplitude ratios,conditional,barrier response and absolute relative calibration must be specified,not executed,medium
+QNM amplitude scaling ln_abs_delta_equals_ln_C_minus_tau with fixed C,potentially complete,absolute normalization C phase and relevant trajectory calibration must be independently fixed,v69 rank complete but event-scale power fail,medium
+QNM amplitude scaling with free C,exact fail,C absorbs branch dependence even when events are stacked,not a completion,none
+echo_ringdown_integer_lock_statistic,consistency test only,requires an independent kappa or area scale plus covariance and normalization control to become a completion,not executed,diagnostic
+more detectors observing same transfer,no automatic completion,only completes shared nuisance if required alias coefficients conflict,conditional H1 L1 surfaces do not establish this,diagnostic
+detector-specific nuisance per detector,rank can weaken,each free alias coefficient can restore detector-wise failure,not jointly inferred,diagnostic
+product-only catalog with free event times,exact fail,shared scale gauge remains,not a completion,none
+second pure multiple of the same delay,exact fail,response determinant zero,not a completion,none
+minimum-phase reconstruction depending only on product,exact fail,no independent coordinate,not a completion,none
+branch amplitude with free multiplicative normalization,exact fail,normalization absorbs branch dependence,not a completion,none
+additional frequency bins or sample rate,no structural completion,can improve noise and grid diagnostics only,still useful control,control
+absorption tidal heating greybody or Love observables,undeveloped,must provide calibrated nonproduct tau dependence,no admissible model supplied,research

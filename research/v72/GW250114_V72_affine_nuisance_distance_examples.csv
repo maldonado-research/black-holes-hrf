@@ -1,0 +1,6 @@
+case,dimension,nuisance_rank,distance_squared_projection_formula,distance_squared_direct_gls,absolute_difference,distance,exact_alias_numerically,qualification
+scalar_old_branch_at_strict_width,1,0,14.296418032260886,14.296418032260886,0.0,3.7810604375308374,False,point-versus-point recovery
+exact_shared_nuisance_alias,2,1,0.0,0.0,0.0,0.0,True,branch displacement lies in nuisance column space
+orthogonal_completion_residual,2,1,1.0,1.0,0.0,1.0,False,one component survives nuisance quotient
+branch_specific_combined_alias,2,2,0.0,0.0,0.0,0.0,True,combined branch-specific nuisance columns span displacement
+correlated_covariance_partial_completion,2,1,0.125,0.125,0.0,0.3535533905932738,False,correlated fixed covariance example

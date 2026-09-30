@@ -1,0 +1,6 @@
+lane,q_eff,q_eff_percent,mahalanobis_distance,minimax_midpoint_error,probability_score_exceeds_ln10_under_target,log10_probability_score_exceeds_ln10_under_target,strict_gate_pass,qualification
+v71_synthetic_carrier_at_optimistic_directwave_snr,0.1046289428600577,10.462894286005769,0.04162746472547006,0.4916971216355426,0.0,-666.0361027367211,False,Gaussian geometry benchmark only; not an event likelihood or evidence result
+NRSur7dq4_exact_product_anchor_only_optimistic,0.011925803223219933,1.1925803223219933,0.365211260545545,0.4275537331546865,4.614676609949977e-10,-9.335858728318515,False,Gaussian geometry benchmark only; not an event likelihood or evidence result
+v71_expected_logLR_ln10_width,0.0020295930013866014,0.20295930013866015,2.145966026289347,0.14163936889120743,0.4999999999999999,-0.30102999566398125,False,Gaussian geometry benchmark only; not an event likelihood or evidence result
+v71_correct_sign_90pct_width,0.0016992830196104567,0.16992830196104566,2.5631031310892016,0.09999999999999998,0.649211746954895,-0.1876136305717225,False,Gaussian geometry benchmark only; not an event likelihood or evidence result
+v71_strict_ln10_90pct_width,0.0011519090213259128,0.11519090213259128,3.7810604375308374,0.029343541494637027,0.9,-0.045757490560675115,True,Gaussian geometry benchmark only; not an event likelihood or evidence result

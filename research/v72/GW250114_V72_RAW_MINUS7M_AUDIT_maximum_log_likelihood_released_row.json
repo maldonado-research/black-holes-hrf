@@ -1,0 +1,125 @@
+{
+  "version": "GW250114_HRF_v72_raw_minus7M_audit",
+  "status": "FIXED_CONDITIONING_GRID_REPRODUCTION_AND_CONDITIONAL_DETECTOR_DECOMPOSITION_ONLY",
+  "grid": {
+    "shape": [
+      85,
+      40
+    ],
+    "frequency_hz": [
+      160.0,
+      238.0,
+      2.0
+    ],
+    "damping_rate_s_inv": [
+      50.0,
+      890.0,
+      10.0
+    ],
+    "start_time_remnant_mass_units": -7.0
+  },
+  "preflight": {
+    "status": "PASS",
+    "receipt": "GW250114_V72_RAW_PREFLIGHT.json",
+    "receipt_sha256": "41d185c36525013890eb40601f98f4eb8f871d6672ed447d427521f4dfd65b92",
+    "qnm_filter_source": {
+      "git_commit": "55f14436d4ea510b71754b95da9701009e8a1c12",
+      "git_tree": "377f807dd345a138c32d274f3cb746f60dd0cecf",
+      "worktree_clean": true,
+      "import_module_relative_path": "qnm_filter/__init__.py"
+    },
+    "runtime": {
+      "python": {
+        "implementation": "cpython",
+        "version": "3.11.15",
+        "major_minor": "3.11"
+      },
+      "pixi_version_output": "pixi 0.76.2",
+      "package_versions": {
+        "numpy": "1.26.4",
+        "scipy": "1.14.1",
+        "h5py": "3.16.0",
+        "matplotlib": "3.11.0",
+        "astropy": "5.3.4",
+        "gwpy": "3.0.14",
+        "gwsurrogate": "1.1.8",
+        "qnm-filter": "0.1"
+      }
+    }
+  },
+  "input_hashes_sha256": {
+    "GW250114_horizon_signatures.zip": "752eb33b21ee1a332ad7282eb5ddee695d6cc1ec2859120c779e17fbfcd7c862",
+    "posterior_samples_NRSur7dq4.h5": "55b4a47c2c71580e9ef0cd1ff9fa9d32e64813657e9ea31f32e24cda53922d62",
+    "H-H1_GWOSC_O4b_16KHZ_R1-1420877824-4096.hdf5": "23e20dda953d2ede852f4991c018b0f1128f35f2cec7153d835a312be363d19d",
+    "L-L1_GWOSC_O4b_16KHZ_R1-1420877824-4096.hdf5": "355dbcaece2b63b5ded9aa353e34b59a672edfd7845b0aa1b9bf73c5439bb825",
+    "DW_ftau_-7.0M.h5": "c2f44f586ce256d053f564b512125ea857f519a556f79cbc9c1526da557f0667",
+    "pixi.lock": "c03b7bc6f4ef5e05e7d0d745c2abbe7c121d323a2e07eb104291340edb56b612",
+    "pixi.toml": "a0ebdd9478cec8fdf8d714ac15d4cd205250f987cc38a1d1617387570d32b6fd",
+    "GW250114_V72_RAW_PREFLIGHT.json": "41d185c36525013890eb40601f98f4eb8f871d6672ed447d427521f4dfd65b92",
+    "gw250114_v72_raw_minus7m_replay.py": "8d3d3e02915e8cf9691830e386fda093510d5a1d81662649971d07a31a64b09c",
+    "gw250114_v72_raw_preflight.py": "f9a867ef486fc1937663568de4b542ccd79cd0f64f36cf375fbaae09d3562a54"
+  },
+  "modes": {
+    "maximum_log_likelihood_released_row": {
+      "posterior_row": {
+        "mode": "maximum_log_likelihood_released_row",
+        "row_index": 19989,
+        "selection_objective": "argmax(log_likelihood) among released posterior rows",
+        "log_likelihood": 2898.300300775595,
+        "log_prior": 111.21341973963153,
+        "log_likelihood_plus_log_prior": 3009.513720515227,
+        "final_mass_detector_msun": 67.73185062869018,
+        "final_spin": 0.6717689340005605,
+        "ra_rad": 2.3960953505987206,
+        "dec_rad": 0.29254628970857444,
+        "geocent_time_gps": 1420878141.2367663,
+        "psi_rad": 1.285031270778118
+      },
+      "mass_unit_s": 0.000333612617138604,
+      "qnm_filter_time_shift_s": 0.00278445346873903,
+      "minus7M_time_offset_s": -0.005119741788709258,
+      "detector_start_times_gps": {
+        "H1": 1420878141.2137852,
+        "L1": 1420878141.2113416
+      },
+      "conditioned_sampling_n": 1638,
+      "prep_seconds": 14.036356833996251,
+      "grid_seconds": 37.266667518997565,
+      "total_seconds": 51.304210066999076,
+      "network_argmax": {
+        "frequency_hz": 200.0,
+        "damping_rate_s_inv": 420.0,
+        "decay_time_ms": 2.380952380952381,
+        "log_likelihood": -1548.6112090769088
+      },
+      "H1_argmax": {
+        "frequency_hz": 202.0,
+        "damping_rate_s_inv": 360.0,
+        "decay_time_ms": 2.7777777777777777,
+        "log_likelihood": -822.2049407361278
+      },
+      "L1_argmax": {
+        "frequency_hz": 202.0,
+        "damping_rate_s_inv": 480.0,
+        "decay_time_ms": 2.0833333333333335,
+        "log_likelihood": -724.595579462015
+      },
+      "detector_additivity_max_abs_error": 1.1368683772161603e-13
+    }
+  },
+  "maximum_log_likelihood_row_sensitivity": null,
+  "output_hashes_sha256": {
+    "GW250114_V72_RAW_MINUS7M_maximum_log_likelihood_released_row_surfaces.npz": "2bf4ee322c00ff6ef0250fa5e5b64d86c546e228f9445f865081d23e5ab69991"
+  },
+  "active_conditioning_inputs": [
+    "final_mass",
+    "final_spin",
+    "ra",
+    "dec",
+    "geocent_time"
+  ],
+  "recorded_but_not_passed_to_qnm_filter": [
+    "psi"
+  ],
+  "qualification": "This is the released companion's fixed-conditioning -7M 85x40 grid evaluated on official discovery-v1 strain. Detector surfaces are conditional per-detector quadratic contributions at one posterior-row remnant/sky/time point and their sum is an implementation identity. This is not the full Nature inference, detector-specific remnant inference, HRF branch evidence, area quantization, or a quantum-horizon claim."
+}

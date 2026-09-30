@@ -1,0 +1,86 @@
+{
+  "version": "GW250114_HRF_v72",
+  "date": "2026-07-12",
+  "status": "METHODS_AND_FIXED_CONDITIONING_RAW_REPRODUCTION_ONLY_NO_DETECTION",
+  "verdict": "FIXED_CONDITIONING_RAW_GRID_REPLAY_PASS_COMPOSITE_CONTINUUM_REQUIRES_RESOLUTION_PHYSICAL_INTERPRETATION_LOCKED",
+  "canonical_parent": {
+    "master": "GW250114_MASTER_PROGRESS_BUNDLE_v71.zip",
+    "master_sha256": "a491c495c6ae4910fe747254af60246ae18ca22762a4b4ec35b4872dc0690b3a",
+    "standalone": "HRF_V71_NUISANCE_QUOTIENT_COVARIANCE_AND_DECONDITIONING_GATE.zip",
+    "standalone_sha256": "efe2dcceebc344234eb6d6678f990bc611223219ec2ea3906946fc76fd8abb0b"
+  },
+  "exact_continuous_alternative_result": {
+    "target": "lambda_0=ln(ln(4)) when lambda=ln(tau), equivalently tau=ln(4)",
+    "unrestricted_punctured_continuum_uniform_distance": 0.0,
+    "fixed_experiment_randomized_minimax_max_error": 0.5,
+    "loss_definition": "maximum of target type-I error and worst-alternative type-II error",
+    "repair": "preregistered exclusion radius with an indifference gap, interval/equivalence inference with declared error semantics, or normalized prior with scale sensitivity",
+    "assumption": "full observable laws converge in total variation along a feasible punctured-alternative nuisance path; in particular the stipulated common-fixed-covariance Gaussian mean model with continuous mean",
+    "status": "EXACT_FAIL_BY_CLOSURE"
+  },
+  "least_favorable_gate": {
+    "scope": "one preregistered named competitor",
+    "score_threshold": 2.302585092994046,
+    "target_probability": 0.9,
+    "required_distance": 3.7810604375308374,
+    "historical_log_branch_gap": 0.004355437628170275,
+    "max_q_eff_at_historical_gap": 0.0011519090213259128,
+    "max_q_eff_percent": 0.11519090213259128,
+    "qualification": "one-competitor least-favorable endpoint score; not automatically a composite Bayes factor"
+  },
+  "two_sided_exclusion_gate": {
+    "scope": "symmetric alternative |lambda-lambda_0|>=historical_log_branch_gap",
+    "endpoint_competitors": 2,
+    "joint_target_probability_lower_bound": 0.9,
+    "required_distance_each_endpoint": 4.348686765309588,
+    "max_q_eff_at_historical_gap": 0.001001552391152782,
+    "max_q_eff_percent": 0.1001552391152782
+  },
+  "raw_minus7M": {
+    "grid_points": 3400,
+    "released_row_index": 10740,
+    "released_raw_network_maximum": {
+      "frequency_hz": 200.0,
+      "damping_rate_s_inv": 450.0
+    },
+    "released_cached_network_maximum": {
+      "frequency_hz": 200.0,
+      "damping_rate_s_inv": 450.0
+    },
+    "cache_raw_centered_max_abs_log_likelihood": 0.0000773435551522706,
+    "cache_raw_centered_rms": 0.00003509894159694684,
+    "conditional_detector_quadratic_arithmetic_max_abs_error": 1.1368683772161603e-13,
+    "maximum_log_likelihood_released_row_index": 19989,
+    "maximum_log_likelihood_row_network_maximum": {
+      "frequency_hz": 200.0,
+      "damping_rate_s_inv": 420.0
+    },
+    "row_sensitivity_centered_rms": 4.037223543084501,
+    "row_sensitivity_centered_max_abs": 14.358121073237285,
+    "fresh_vs_recovered_largest_centered_max_abs": 3.0716038632844547e-07,
+    "fresh_replay_centered_max_abs_tolerance": 1e-05,
+    "scope": "complete fixed-conditioning -7M 85x40 grid; not the full Nature inference",
+    "status": "FIXED_CONDITIONING_RAW_GRID_REPRODUCED_AND_DETECTOR_ADDITIVITY_IDENTITY_PASS_CONDITIONAL_POINT_SENSITIVITY_OPEN"
+  },
+  "self_tests": {
+    "math": "17/17 PASS",
+    "raw_preflight": "9/9 PASS",
+    "raw_replay": "16/16 PASS",
+    "fresh_surface_comparator": "26/26 PASS"
+  },
+  "gates": {
+    "official_fixed_conditioning_raw_minus7M_grid_replay": "PASS",
+    "fail_closed_runtime_and_qnm_source_preflight": "PASS",
+    "fresh_replay_tolerance_comparison": "PASS",
+    "full_nature_inference": "NOT_REPRODUCED",
+    "conditional_raw_detector_quadratic_arithmetic": "PASS_DIAGNOSTIC_ONLY",
+    "released_point_selection_robustness": "MATERIAL_SENSITIVITY_NOT_RESOLVED",
+    "detector_specific_remnant_QNM_inference": "NOT_EXECUTED",
+    "global_real_nuisance_image_distance": "NOT_MEASURED",
+    "continuous_tau_resolution_definition": "NOT_PREREGISTERED",
+    "generative_HRF_likelihood": "INCOMPLETE",
+    "nonregular_null": "NOT_CALIBRATED",
+    "physical_interpretation": "LOCKED"
+  },
+  "claim_boundary": "No HRF detection, no real ln(4) or g=4 identification, no area quantization, no black-hole microstate inference, and no quantum-horizon claim."
+}

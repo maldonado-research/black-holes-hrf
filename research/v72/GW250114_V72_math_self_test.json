@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-12",
+  "n_passed": 17,
+  "n_tests": 17,
+  "status": "PASS",
+  "tests": [
+    {
+      "detail": "D=3.781060437530837",
+      "name": "strict_distance_recovery",
+      "passed": true
+    },
+    {
+      "detail": "p=0.9",
+      "name": "strict_probability_recovery",
+      "passed": true
+    },
+    {
+      "detail": "analytic closure theorem encoded",
+      "name": "unrestricted_continuum_infimum_zero",
+      "passed": true
+    },
+    {
+      "detail": "last_error=0.4999999992457876",
+      "name": "closure_error_approaches_half",
+      "passed": true
+    },
+    {
+      "detail": "two endpoint lanes reproduce the K=2 multiplicity width",
+      "name": "two_sided_full_gap_q_recovery",
+      "passed": true
+    },
+    {
+      "detail": "Bonferroni lower bound equals 0.90",
+      "name": "two_sided_joint_success_recovery",
+      "passed": true
+    },
+    {
+      "detail": "extreme carrier-lane tail retained in log10 form",
+      "name": "stable_extreme_tail_log_probability",
+      "passed": true
+    },
+    {
+      "detail": "U=Delta/2",
+      "name": "bias_half_gap_closes_images",
+      "passed": true
+    },
+    {
+      "detail": "max_abs=2.087e-14",
+      "name": "affine_projection_matches_direct_gls",
+      "passed": true
+    },
+    {
+      "detail": "max_abs=2.149e-12",
+      "name": "nuisance_reparameterization_invariance",
+      "passed": true
+    },
+    {
+      "detail": "d2=0.000e+00",
+      "name": "affine_exact_alias_zero",
+      "passed": true
+    },
+    {
+      "detail": "max_relative=1.973e-08",
+      "name": "two_channel_optimum_matches_dense_grid",
+      "passed": true
+    },
+    {
+      "detail": "determinant=0",
+      "name": "identical_slopes_rank_fail",
+      "passed": true
+    },
+    {
+      "detail": "determinant nonzero",
+      "name": "distinct_slopes_rank_complete",
+      "passed": true
+    },
+    {
+      "detail": "least squares with one common coefficient is no less restrictive",
+      "name": "detector_common_information_ge_specific",
+      "passed": true
+    },
+    {
+      "detail": "same coefficient fits both",
+      "name": "same_detector_alias_survives",
+      "passed": true
+    },
+    {
+      "detail": "individual aliases conflict only under shared nuisance",
+      "name": "conflicting_detector_alias_breaks_common_nuisance",
+      "passed": true
+    }
+  ],
+  "version": "GW250114_HRF_v72_math"
+}

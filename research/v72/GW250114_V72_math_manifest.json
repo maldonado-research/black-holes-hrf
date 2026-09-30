@@ -1,0 +1,80 @@
+{
+  "date": "2026-07-12",
+  "files": [
+    {
+      "bytes": 738,
+      "name": "GW250114_V72_affine_nuisance_distance_examples.csv",
+      "sha256": "55fe0fda5fe8965c50177a4e2fdb57cdcf820bbfb82eba91ba07571a35ec7ba8"
+    },
+    {
+      "bytes": 1096,
+      "name": "GW250114_V72_bias_precision_frontier.csv",
+      "sha256": "f382ea872c55a6f9cdd57745be0776ec6fb2bfcc2687feea37733645306848dc"
+    },
+    {
+      "bytes": 2721,
+      "name": "GW250114_V72_continuous_alternative_closure_sequence.csv",
+      "sha256": "06e35a5a5ffc4db02a2538090af0e5f0a08a54dbb3318e8be7ba5e16cf92982d"
+    },
+    {
+      "bytes": 69312,
+      "name": "GW250114_V72_continuous_closure.png",
+      "sha256": "604ad85fd9b09e048a4d576e93a34e103779704996b0d3bbca9d35b74963e836"
+    },
+    {
+      "bytes": 833,
+      "name": "GW250114_V72_detector_alias_consistency.csv",
+      "sha256": "a54811cb58d9412346f4233ceefa6fd2b0cd8c1e5e32e45416f5be4dc5058f15"
+    },
+    {
+      "bytes": 52960,
+      "name": "GW250114_V72_exclusion_precision_budget.png",
+      "sha256": "fc7fe688ba2cf562c4bdb5fea2c0056f16cf740079b8edc9b13726eb3ae2884d"
+    },
+    {
+      "bytes": 1354,
+      "name": "GW250114_V72_exclusion_radius_precision_budget.csv",
+      "sha256": "5203ba83f9027dad41a692778a95dec91cc235163ced14b7e5f4292982c2e86d"
+    },
+    {
+      "bytes": 1250,
+      "name": "GW250114_V72_finite_composite_multiplicity_budget.csv",
+      "sha256": "7a8cac7c6d4b135f831fcb91907cc92642a11bc72e6ca2a68b7c945fc7519345"
+    },
+    {
+      "bytes": 1364,
+      "name": "GW250114_V72_least_favourable_lane_power.csv",
+      "sha256": "841237e29be310b6a852611ae6bdadd93a412a818a73bc346e744e22c266ba27"
+    },
+    {
+      "bytes": 2380,
+      "name": "GW250114_V72_math_self_test.json",
+      "sha256": "ccd338f5a2eeeefb73624806c7aea60bc74dbe2a4272000e5572ffd2322be271"
+    },
+    {
+      "bytes": 2745,
+      "name": "GW250114_V72_math_summary.json",
+      "sha256": "cf28cb82cded4f45a6bda12bb2d13c95788d82efb569827d0a511406c75b4320"
+    },
+    {
+      "bytes": 93357,
+      "name": "GW250114_V72_multiplicity_precision_budget.png",
+      "sha256": "db9a594e1f2836ba939e7b6fc052626d29cb0e3b5ac6b191e8a843e174f53ec6"
+    },
+    {
+      "bytes": 119788,
+      "name": "GW250114_V72_two_observable_design.png",
+      "sha256": "dd2b3c439a3366a706da1eb094788c1d0e049f22fb36b2a562ed22bc06526027"
+    },
+    {
+      "bytes": 1221,
+      "name": "GW250114_V72_two_observable_optimal_design.csv",
+      "sha256": "4f2f5f3d978ff085068126fd340178d25e9227868958317262c0c4b50bd7781d"
+    }
+  ],
+  "generator": {
+    "name": "gw250114_v72_composite_closure_design.py",
+    "sha256": "31eeaa721eee9caba464a6fe421a5b8c4cff7b3e5cecf6e99e1d53262ddb5b79"
+  },
+  "version": "GW250114_HRF_v72_math"
+}

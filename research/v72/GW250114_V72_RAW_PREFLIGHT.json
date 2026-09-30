@@ -1,0 +1,174 @@
+{
+  "version": "GW250114_HRF_v72_raw_preflight_v1",
+  "status": "PASS",
+  "scope": "FIXED_CONDITIONING_MINUS7M_85_BY_40_GRID_ONLY",
+  "files": {
+    "nature_zip": {
+      "name": "GW250114_horizon_signatures.zip",
+      "bytes": 53049832,
+      "sha256": "752eb33b21ee1a332ad7282eb5ddee695d6cc1ec2859120c779e17fbfcd7c862",
+      "md5": "4874fef35088209c9fa4073f15a27a78"
+    },
+    "posterior": {
+      "name": "posterior_samples_NRSur7dq4.h5",
+      "bytes": 26958665,
+      "sha256": "55b4a47c2c71580e9ef0cd1ff9fa9d32e64813657e9ea31f32e24cda53922d62",
+      "md5": "9b115931b66439a1d5649a2b7b7aa143"
+    },
+    "h1": {
+      "name": "H-H1_GWOSC_O4b_16KHZ_R1-1420877824-4096.hdf5",
+      "bytes": 162063585,
+      "sha256": "23e20dda953d2ede852f4991c018b0f1128f35f2cec7153d835a312be363d19d"
+    },
+    "l1": {
+      "name": "L-L1_GWOSC_O4b_16KHZ_R1-1420877824-4096.hdf5",
+      "bytes": 160795119,
+      "sha256": "355dbcaece2b63b5ded9aa353e34b59a672edfd7845b0aa1b9bf73c5439bb825"
+    },
+    "cached": {
+      "name": "DW_ftau_-7.0M.h5",
+      "bytes": 33344,
+      "sha256": "c2f44f586ce256d053f564b512125ea857f519a556f79cbc9c1526da557f0667"
+    },
+    "pixi_lock": {
+      "name": "pixi.lock",
+      "bytes": 292666,
+      "sha256": "c03b7bc6f4ef5e05e7d0d745c2abbe7c121d323a2e07eb104291340edb56b612"
+    },
+    "pixi_toml": {
+      "name": "pixi.toml",
+      "bytes": 567,
+      "sha256": "a0ebdd9478cec8fdf8d714ac15d4cd205250f987cc38a1d1617387570d32b6fd"
+    }
+  },
+  "schemas": {
+    "posterior": {
+      "dataset": "bilby-NRSur7dq4_prod-reweighted/posterior_samples",
+      "shape": [
+        19990
+      ],
+      "required_fields": [
+        "log_likelihood",
+        "log_prior",
+        "final_mass",
+        "final_spin",
+        "ra",
+        "dec",
+        "geocent_time",
+        "psi"
+      ],
+      "required_field_dtype": "float64-little-endian"
+    },
+    "h1_strain": {
+      "detector": "H1",
+      "duration_s": 4096,
+      "gps_start": 1420877824,
+      "shape": [
+        67108864
+      ],
+      "dtype": "float64",
+      "x_start": 1420877824,
+      "x_spacing_s": 6.103515625e-05,
+      "n_points_attr": 67108864
+    },
+    "l1_strain": {
+      "detector": "L1",
+      "duration_s": 4096,
+      "gps_start": 1420877824,
+      "shape": [
+        67108864
+      ],
+      "dtype": "float64",
+      "x_start": 1420877824,
+      "x_spacing_s": 6.103515625e-05,
+      "n_points_attr": 67108864
+    },
+    "released_minus7M_cache": {
+      "dataset": "likelihood_data",
+      "shape": [
+        85,
+        40
+      ],
+      "dtype": "float64",
+      "all_finite": true,
+      "frequency_bounds_hz": [
+        160.0,
+        238.0
+      ],
+      "damping_rate_bounds_s_inv": [
+        50,
+        890
+      ],
+      "delta_frequency_hz": 2,
+      "delta_damping_rate_s_inv": 10,
+      "start_time_remnant_mass_units": -7.0
+    }
+  },
+  "qnm_filter_source": {
+    "git_commit": "55f14436d4ea510b71754b95da9701009e8a1c12",
+    "git_tree": "377f807dd345a138c32d274f3cb746f60dd0cecf",
+    "worktree_clean": true,
+    "import_module_relative_path": "qnm_filter/__init__.py"
+  },
+  "runtime": {
+    "python": {
+      "implementation": "cpython",
+      "version": "3.11.15",
+      "major_minor": "3.11"
+    },
+    "pixi_version_output": "pixi 0.76.2",
+    "package_versions": {
+      "numpy": "1.26.4",
+      "scipy": "1.14.1",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.0",
+      "astropy": "5.3.4",
+      "gwpy": "3.0.14",
+      "gwsurrogate": "1.1.8",
+      "qnm-filter": "0.1"
+    }
+  },
+  "self_test": {
+    "passed": 9,
+    "total": 9,
+    "tests": [
+      {
+        "test": "frozen_file_sha256_match",
+        "pass": true
+      },
+      {
+        "test": "official_md5_match_for_nature_zip_and_posterior",
+        "pass": true
+      },
+      {
+        "test": "posterior_hdf5_schema",
+        "pass": true
+      },
+      {
+        "test": "gwosc_h1_hdf5_schema",
+        "pass": true
+      },
+      {
+        "test": "gwosc_l1_hdf5_schema",
+        "pass": true
+      },
+      {
+        "test": "released_minus7M_cache_hdf5_schema",
+        "pass": true
+      },
+      {
+        "test": "python_runtime_is_3_11",
+        "pass": true
+      },
+      {
+        "test": "qnm_filter_commit_tree_clean_and_imported_from_supplied_source",
+        "pass": true
+      },
+      {
+        "test": "pixi_and_required_package_versions_queried",
+        "pass": true
+      }
+    ]
+  },
+  "qualification": "This preflight authenticates inputs, source, schemas, and runtime for the fixed-conditioning -7M grid replay. It does not reproduce the full Nature analysis or establish HRF, area-quantization, or quantum-horizon evidence."
+}

@@ -1,0 +1,4 @@
+# Deterministic mathematical generator environment.
+# The official raw replay uses the separate packaged pixi.toml/pixi.lock.
+numpy==2.3.5
+matplotlib==3.10.8

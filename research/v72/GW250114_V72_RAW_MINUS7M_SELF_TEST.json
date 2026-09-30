@@ -1,0 +1,70 @@
+{
+  "passed": 16,
+  "total": 16,
+  "tests": [
+    {
+      "test": "stored_preflight_receipt_is_current_and_passed",
+      "pass": true
+    },
+    {
+      "test": "preflight_scope_is_fixed_conditioning_minus7M_grid",
+      "pass": true
+    },
+    {
+      "test": "preflight_qnm_source_is_frozen_and_clean",
+      "pass": true
+    },
+    {
+      "test": "preflight_runtime_is_actual_python_3_11",
+      "pass": true
+    },
+    {
+      "test": "grid_shape_is_85_by_40",
+      "pass": true
+    },
+    {
+      "test": "grid_axes_exact",
+      "pass": true
+    },
+    {
+      "test": "all_surfaces_finite",
+      "pass": true
+    },
+    {
+      "test": "released_detector_additivity",
+      "pass": true
+    },
+    {
+      "test": "maximum_logL_row_detector_additivity",
+      "pass": true
+    },
+    {
+      "test": "released_cache_and_raw_have_same_grid_maximum",
+      "pass": true
+    },
+    {
+      "test": "released_cache_centered_residual_below_1e-3_logL",
+      "pass": true
+    },
+    {
+      "test": "released_row_index_exact",
+      "pass": true
+    },
+    {
+      "test": "maximum_logL_row_index_exact",
+      "pass": true
+    },
+    {
+      "test": "single_mode_audits_match_current_replay_and_preflight_scripts",
+      "pass": true
+    },
+    {
+      "test": "single_mode_audits_match_current_preflight_receipt",
+      "pass": true
+    },
+    {
+      "test": "single_mode_surface_hashes_match",
+      "pass": true
+    }
+  ]
+}

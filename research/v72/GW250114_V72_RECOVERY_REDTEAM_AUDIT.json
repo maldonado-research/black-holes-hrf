@@ -1,0 +1,225 @@
+{
+  "artifact": "GW250114_V72_RECOVERY_REDTEAM_AUDIT",
+  "audit_date": "2026-08-17",
+  "overall_status": "RECOVERY_REPAIR_VALIDATION_PASS_NO_PHYSICAL_PROMOTION",
+  "scope": "Independent review of the recovered v72 methods package and the fixed-conditioning -7M raw-grid replay; not a physics-result certification.",
+  "chain_of_custody": {
+    "canonical_v71_standalone": {
+      "sha256": "efe2dcceebc344234eb6d6678f990bc611223219ec2ea3906946fc76fd8abb0b",
+      "status": "PASS"
+    },
+    "canonical_v71_master": {
+      "sha256": "a491c495c6ae4910fe747254af60246ae18ca22762a4b4ec35b4872dc0690b3a",
+      "status": "PASS"
+    },
+    "recovered_v72_core": {
+      "sha256": "1d0154178d6cf2c478d69fe5fa654957a0e548803c70a26eb19563ea653422d5",
+      "status": "PASS_AS_RECOVERY_INPUT",
+      "qualification": "The repaired final v72 archive will necessarily have a different hash."
+    },
+    "final_archive": {
+      "status": "SEALED_AND_VERIFIED_EXTERNALLY_AFTER_MANIFEST_FREEZE",
+      "qualification": "The archive SHA-256 is stored in the external sidecar because an archive cannot contain its own digest."
+    }
+  },
+  "math_correction": {
+    "historical_log_gap": 0.004355437628170275,
+    "finding": "A one-competitor threshold had been applied as if it controlled a symmetric two-sided alternative.",
+    "one_preregistered_named_competitor": {
+      "required_distance": 3.7810604375308374,
+      "max_q_eff": 0.0011519090213259128,
+      "max_q_eff_percent": 0.11519090213259128,
+      "target_probability": 0.9
+    },
+    "symmetric_two_sided_two_endpoint_gate": {
+      "endpoint_competitors": 2,
+      "required_distance_each_endpoint": 4.348686765309588,
+      "max_q_eff": 0.001001552391152782,
+      "max_q_eff_percent": 0.1001552391152782,
+      "joint_target_probability_lower_bound": 0.9,
+      "control": "Bonferroni"
+    },
+    "self_test": {
+      "passed": 17,
+      "total": 17,
+      "status": "PASS_17_OF_17_AND_BITWISE_REGENERATION"
+    }
+  },
+  "scope_corrections": {
+    "raw_replay": {
+      "status": "FIXED_CONDITIONING_GRID_ONLY",
+      "grid_shape": [
+        85,
+        40
+      ],
+      "grid_points": 3400,
+      "conditioning_rows": [
+        10740,
+        19989
+      ],
+      "full_nature_inference": "NOT_REPRODUCED",
+      "excluded_claims": [
+        "posterior marginalization reproduced",
+        "uncertainty propagation reproduced",
+        "complete model selection reproduced",
+        "complete Nature inference reproduced"
+      ]
+    },
+    "psi": {
+      "recorded": true,
+      "passed_to_qnm_filter": false,
+      "status": "INACTIVE_NO_POLARIZATION_ATTRIBUTION"
+    },
+    "row_comparison": {
+      "inputs_that_differ_and_move_together": [
+        "mass",
+        "spin",
+        "right_ascension",
+        "declination",
+        "geocentric_time"
+      ],
+      "isolates_single_parameter": false
+    },
+    "detector_alias": {
+      "scope": "LOCAL_LINEAR_TANGENT_ONLY",
+      "global_exact_alias_proved": false,
+      "global_nuisance_image_check_required": true
+    },
+    "detector_additivity": {
+      "max_abs_error": 1.1368683772161603e-13,
+      "interpretation": "Implementation arithmetic identity under the conditioned model; not independent physical validation."
+    }
+  },
+  "reproducibility_findings": [
+    {
+      "id": "RUNTIME_PREFLIGHT",
+      "finding": "The recovered raw finalizer hardcoded a Python/Pixi environment and did not fail closed on all input and qnm_filter source checks.",
+      "repair": "Runtime/input/source preflight and source receipt binding",
+      "status": "PASS_REPAIRED_AND_RUNTIME_DERIVED"
+    },
+    {
+      "id": "PACKAGE_AUDIT_IDEMPOTENCY",
+      "finding": "The recovered package audit changed its own audited JSON population on rerun and was therefore non-idempotent.",
+      "repair": "Exclude self-generated audit outputs from the invariant population and rerun twice",
+      "status": "PASS_REPAIRED_AND_REPEATED_OUTPUTS_BYTE_IDENTICAL"
+    },
+    {
+      "id": "FULL_MANIFEST_VERIFICATION",
+      "finding": "The recovered package audit did not validate the complete release manifest member set, sizes, and hashes.",
+      "repair": "Read-only full-manifest verifier",
+      "status": "PASS_READ_ONLY_EXACT_MEMBER_SIZE_SHA256_CHECK"
+    }
+  ],
+  "official_inputs": {
+    "nature_companion_zip": {
+      "sha256": "752eb33b21ee1a332ad7282eb5ddee695d6cc1ec2859120c779e17fbfcd7c862",
+      "official_md5": "4874fef35088209c9fa4073f15a27a78"
+    },
+    "nrsur7dq4_posterior_hdf5": {
+      "sha256": "55b4a47c2c71580e9ef0cd1ff9fa9d32e64813657e9ea31f32e24cda53922d62",
+      "official_md5": "9b115931b66439a1d5649a2b7b7aa143"
+    },
+    "h1_4096s_16384hz_strain": {
+      "sha256": "23e20dda953d2ede852f4991c018b0f1128f35f2cec7153d835a312be363d19d"
+    },
+    "l1_4096s_16384hz_strain": {
+      "sha256": "355dbcaece2b63b5ded9aa353e34b59a672edfd7845b0aa1b9bf73c5439bb825"
+    },
+    "companion_cached_minus7m_surface": {
+      "sha256": "c2f44f586ce256d053f564b512125ea857f519a556f79cbc9c1526da557f0667"
+    }
+  },
+  "qnm_filter_source": {
+    "commit": "55f14436d4ea510b71754b95da9701009e8a1c12",
+    "tree": "377f807dd345a138c32d274f3cb746f60dd0cecf",
+    "tracked_state": "CLEAN_AT_INSPECTION",
+    "fail_closed_binding_status": "PASS"
+  },
+  "fresh_independent_replay": {
+    "environment": "Newly installed Python 3.11/Pixi environment",
+    "status": "PASS_WITH_PACKAGED_9_16_26_RECEIPTS",
+    "released_row_10740": {
+      "network_maximum": {
+        "frequency_hz": 200.0,
+        "damping_rate_s_inv": 450.0
+      },
+      "h1_maximum": {
+        "frequency_hz": 200.0,
+        "damping_rate_s_inv": 390.0
+      },
+      "l1_maximum": {
+        "frequency_hz": 198.0,
+        "damping_rate_s_inv": 510.0
+      },
+      "fresh_vs_recovered_centered_network": {
+        "max_abs": 3.00217e-7,
+        "rms": 1.62369e-7,
+        "maximum_location_matches": true
+      },
+      "fresh_minus_cache": {
+        "mean": -0.0002365525231,
+        "rms": 3.5098941597e-5,
+        "peak_to_peak": 0.00015017496935,
+        "centered_max_abs": 7.7343555152e-5
+      }
+    },
+    "maximum_log_likelihood_row_19989": {
+      "network_maximum": {
+        "frequency_hz": 200.0,
+        "damping_rate_s_inv": 420.0
+      },
+      "h1_maximum": {
+        "frequency_hz": 202.0,
+        "damping_rate_s_inv": 360.0
+      },
+      "l1_maximum": {
+        "frequency_hz": 202.0,
+        "damping_rate_s_inv": 480.0
+      },
+      "fresh_vs_recovered_centered_network": {
+        "max_abs": 1.89396e-7,
+        "rms": 8.69764e-8,
+        "maximum_location_matches": true
+      }
+    },
+    "detector_network_additivity_max_abs_error": 1.1368683772161603e-13,
+    "qualification": "Fixed-conditioning reproduction diagnostics only."
+  },
+  "gates": {
+    "canonical_v71_parent_integrity": "PASS",
+    "recovered_v72_core_provenance": "PASS_AS_RECOVERY_INPUT",
+    "corrected_composite_separation_math": "PASS_17_OF_17_AND_BITWISE_REGENERATION",
+    "fresh_official_fixed_conditioning_minus7m_replay": "PASS_WITH_PACKAGED_9_16_26_RECEIPTS",
+    "full_nature_inference": "NOT_REPRODUCED",
+    "runtime_source_fail_closed_preflight": "PASS",
+    "idempotent_package_audit_and_full_manifest": "PASS_28_OF_28_AND_56_OF_56",
+    "global_real_nuisance_image_distance": "NOT_MEASURED",
+    "detector_disjoint_cross_fit": "NEXT_TASK_NOT_EXECUTED",
+    "physical_interpretation": "LOCKED"
+  },
+  "next_task": {
+    "name": "DETECTOR_DISJOINT_CROSS_FIT_OR_HELD_OUT_VALIDATION",
+    "status": "NOT_EXECUTED",
+    "requirements": [
+      "preregister target and held-out construction",
+      "prevent the same detector-conditioned information from serving as both fit and validation evidence",
+      "retain the local-versus-global alias distinction",
+      "define nuisance images",
+      "define exclusion region",
+      "define error control before execution"
+    ]
+  },
+  "claim_firewall": {
+    "physics_discovery": false,
+    "hrf_physical_validation": false,
+    "hrf_generative_likelihood_validation": false,
+    "ln4_identification": false,
+    "g4_identification": false,
+    "area_quantization": false,
+    "black_hole_microstate_inference": false,
+    "quantum_horizon_claim": false,
+    "full_nature_inference_reproduced": false,
+    "publication_or_zenodo_claim_update_authorized": false,
+    "statement": "No physics discovery, HRF validation, ln(4)/g=4 identification, area quantization, black-hole microstate inference, or quantum-horizon claim follows from this recovery evidence."
+  }
+}

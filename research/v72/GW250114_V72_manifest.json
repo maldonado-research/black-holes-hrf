@@ -1,0 +1,288 @@
+{
+  "version": "GW250114_HRF_v72",
+  "date": "2026-07-12",
+  "root": "HRF_V72_COMPOSITE_CLOSURE_LEAST_FAVORABLE_SEPARATION_AND_RAW_REPLAY",
+  "file_count_excluding_manifest": 56,
+  "files": [
+    {
+      "path": "GW250114_V72_COMPOSITE_CLOSURE_LEAST_FAVORABLE_SEPARATION_AND_RAW_REPLAY.md",
+      "bytes": 15530,
+      "sha256": "1e4e195443405f47b79cc95b6edc15d061fb15fee94f2954a328eb0b0a5ed275"
+    },
+    {
+      "path": "GW250114_V72_FRESH_REPLAY_COMPARISON.json",
+      "bytes": 10388,
+      "sha256": "5225d6705bacf1dfd78ca2b9a7ae14b5ce11229051098a6a7fa9b53b902c89e0"
+    },
+    {
+      "path": "GW250114_V72_NEXT_TASK.md",
+      "bytes": 3885,
+      "sha256": "3e634c4f0d5826d02d974b4621134c921aa98d792fcd69b1a8e4e11ac32371d6"
+    },
+    {
+      "path": "GW250114_V72_OBSERVABLE_COMPLETION_CANDIDATES.csv",
+      "bytes": 2758,
+      "sha256": "65bed176323b288f3aa9ed6559b8a74da803f62780689882d8bf8ca24dc92c25"
+    },
+    {
+      "path": "GW250114_V72_ONE_PAGE_CERTIFICATE.md",
+      "bytes": 4596,
+      "sha256": "e2ec5b0a2d6e5aa8d3776c2f76bab0f457f4bdda881e45cf72ec308a35948275"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_AUDIT.csv",
+      "bytes": 703,
+      "sha256": "97b4b3b2b307b5191a498679f24f10d0eedfa3a5b332fe83763ce26cc9efde85"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_AUDIT.json",
+      "bytes": 9240,
+      "sha256": "b42985966e2e7a7a0cd59284654d89efc78c3561294df8d1aad25a428f744c10"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_AUDIT_maximum_log_likelihood_released_row.csv",
+      "bytes": 1873,
+      "sha256": "8af77b65c2b21760faed39d881c4912d5136e2164162692407dbc37295ef279d"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_AUDIT_maximum_log_likelihood_released_row.json",
+      "bytes": 4926,
+      "sha256": "8ec1988c1458cf2b4d2e24377ff0f44f618f57d60b19ca37cd7c3d4c8485c12d"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_AUDIT_released_logL_plus_logprior.csv",
+      "bytes": 1847,
+      "sha256": "e1a915fa962378d0a771eb6f9e278406c182509980ad66902284dac946393f28"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_AUDIT_released_logL_plus_logprior.json",
+      "bytes": 5522,
+      "sha256": "b41859bf4ed2a8ba9d92f158b2cd1decf22343852c74e7d82354b65e49309165"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_DETECTOR_NETWORK_AUDIT.png",
+      "bytes": 184080,
+      "sha256": "0ee494b3e16c00e2e48d0fc4597f4bad5b7dea85eee6954473734fbdc62b26e1"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_MANIFEST.json",
+      "bytes": 3302,
+      "sha256": "a91e777999d98538bf6604b03217bd77fb417d1e5b30b1dc38ead944e67b622e"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_REPLAY_AUDIT.md",
+      "bytes": 6635,
+      "sha256": "9c552bd786b8518837cee33afbbfca618052e52a76d17550d949b05631564f73"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_SELF_TEST.json",
+      "bytes": 1434,
+      "sha256": "ce11415ff034e406f76e096d5040b27fdd0aa1a5952789ea8bc1ee8971f03be2"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_maximum_log_likelihood_released_row_surfaces.npz",
+      "bytes": 95423,
+      "sha256": "2bf4ee322c00ff6ef0250fa5e5b64d86c546e228f9445f865081d23e5ab69991"
+    },
+    {
+      "path": "GW250114_V72_RAW_MINUS7M_released_logL_plus_logprior_surfaces.npz",
+      "bytes": 95694,
+      "sha256": "ff329f71c003e054a4250e990a84c06d5427b9a53c045d5592ccba895416dc14"
+    },
+    {
+      "path": "GW250114_V72_RAW_PREFLIGHT.json",
+      "bytes": 4644,
+      "sha256": "41d185c36525013890eb40601f98f4eb8f871d6672ed447d427521f4dfd65b92"
+    },
+    {
+      "path": "GW250114_V72_RECOVERY_REDTEAM_AUDIT.json",
+      "bytes": 8495,
+      "sha256": "04f1e0feb88728438333426c67545ebc368aabab764f06d58954771e4714dcd4"
+    },
+    {
+      "path": "GW250114_V72_RECOVERY_REDTEAM_AUDIT.md",
+      "bytes": 7167,
+      "sha256": "3558335257a90fc1784a7436eacbdd28d41d1dc96b217728852004878271ab16"
+    },
+    {
+      "path": "GW250114_V72_RELEASE_NOTES.md",
+      "bytes": 2609,
+      "sha256": "57cd209d1b4eb11d48aac628e0fb245e60b49b96e979816fd9dfbe2b9f2f3b1d"
+    },
+    {
+      "path": "GW250114_V72_THEOREM_AND_PROOF.md",
+      "bytes": 8909,
+      "sha256": "3397bce7f71d692c7cc37c9f7e0c16bb69fc29a839a8779e9f831e19acd6f40b"
+    },
+    {
+      "path": "GW250114_V72_affine_nuisance_distance_examples.csv",
+      "bytes": 738,
+      "sha256": "55fe0fda5fe8965c50177a4e2fdb57cdcf820bbfb82eba91ba07571a35ec7ba8"
+    },
+    {
+      "path": "GW250114_V72_bias_precision_frontier.csv",
+      "bytes": 1096,
+      "sha256": "f382ea872c55a6f9cdd57745be0776ec6fb2bfcc2687feea37733645306848dc"
+    },
+    {
+      "path": "GW250114_V72_continuous_alternative_closure_sequence.csv",
+      "bytes": 2721,
+      "sha256": "06e35a5a5ffc4db02a2538090af0e5f0a08a54dbb3318e8be7ba5e16cf92982d"
+    },
+    {
+      "path": "GW250114_V72_continuous_closure.png",
+      "bytes": 69312,
+      "sha256": "604ad85fd9b09e048a4d576e93a34e103779704996b0d3bbca9d35b74963e836"
+    },
+    {
+      "path": "GW250114_V72_detector_alias_consistency.csv",
+      "bytes": 833,
+      "sha256": "a54811cb58d9412346f4233ceefa6fd2b0cd8c1e5e32e45416f5be4dc5058f15"
+    },
+    {
+      "path": "GW250114_V72_exclusion_precision_budget.png",
+      "bytes": 52960,
+      "sha256": "fc7fe688ba2cf562c4bdb5fea2c0056f16cf740079b8edc9b13726eb3ae2884d"
+    },
+    {
+      "path": "GW250114_V72_exclusion_radius_precision_budget.csv",
+      "bytes": 1354,
+      "sha256": "5203ba83f9027dad41a692778a95dec91cc235163ced14b7e5f4292982c2e86d"
+    },
+    {
+      "path": "GW250114_V72_finite_composite_multiplicity_budget.csv",
+      "bytes": 1250,
+      "sha256": "7a8cac7c6d4b135f831fcb91907cc92642a11bc72e6ca2a68b7c945fc7519345"
+    },
+    {
+      "path": "GW250114_V72_gate_status.csv",
+      "bytes": 3119,
+      "sha256": "4a6fc6ba2eb73b4d3c904a8f620918f875bdae34689f274c0ee6c1cc16542da1"
+    },
+    {
+      "path": "GW250114_V72_least_favourable_lane_power.csv",
+      "bytes": 1364,
+      "sha256": "841237e29be310b6a852611ae6bdadd93a412a818a73bc346e744e22c266ba27"
+    },
+    {
+      "path": "GW250114_V72_math_manifest.json",
+      "bytes": 2740,
+      "sha256": "516d5a61f34280628db203a2fdd0eead41c50d321d711e6bd74afe53a04dbae6"
+    },
+    {
+      "path": "GW250114_V72_math_self_test.json",
+      "bytes": 2380,
+      "sha256": "ccd338f5a2eeeefb73624806c7aea60bc74dbe2a4272000e5572ffd2322be271"
+    },
+    {
+      "path": "GW250114_V72_math_summary.json",
+      "bytes": 2745,
+      "sha256": "cf28cb82cded4f45a6bda12bb2d13c95788d82efb569827d0a511406c75b4320"
+    },
+    {
+      "path": "GW250114_V72_multiplicity_precision_budget.png",
+      "bytes": 93357,
+      "sha256": "db9a594e1f2836ba939e7b6fc052626d29cb0e3b5ac6b191e8a843e174f53ec6"
+    },
+    {
+      "path": "GW250114_V72_summary.json",
+      "bytes": 4422,
+      "sha256": "ff93ee493de7d056b1448740337699c98f34730bf945b7373bfc8c142e2cf377"
+    },
+    {
+      "path": "GW250114_V72_two_observable_design.png",
+      "bytes": 119788,
+      "sha256": "dd2b3c439a3366a706da1eb094788c1d0e049f22fb36b2a562ed22bc06526027"
+    },
+    {
+      "path": "GW250114_V72_two_observable_optimal_design.csv",
+      "bytes": 1221,
+      "sha256": "4f2f5f3d978ff085068126fd340178d25e9227868958317262c0c4b50bd7781d"
+    },
+    {
+      "path": "PACKAGE_PROVENANCE.md",
+      "bytes": 1330,
+      "sha256": "bc9ecd961e62c4056cb8cfb5d8eed0222c79f523adbdaf5400c8d86a18c261b5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6215,
+      "sha256": "e98d5027e7b1e9d642fa9dbfa3c4bb2bec8126769c8da70c9d95063ca271eade"
+    },
+    {
+      "path": "REFERENCE_ONLY_TRIAGE.md",
+      "bytes": 496,
+      "sha256": "5714817b68684e2dc91a01f318b0210ef000b6c51a2de0590a78a0fe890ed383"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2068,
+      "sha256": "d9c09d1e1ec33f34f084ea60d687fa8371016b0f1b61afde5ac93c6119a14928"
+    },
+    {
+      "path": "audits/GW250114_V72_REPRODUCIBILITY_AUDIT.json",
+      "bytes": 3964,
+      "sha256": "804361793dd49acdc3a0ea0083269d533c9941eeb8d211680dffd6498995bf9b"
+    },
+    {
+      "path": "audits/GW250114_V72_REPRODUCIBILITY_AUDIT.md",
+      "bytes": 2428,
+      "sha256": "484167bdcc1889e8219474bd663a9d85d4b65ec895f2ab7f77a6cfe89729cc48"
+    },
+    {
+      "path": "gw250114_v72_build_manifest.py",
+      "bytes": 1188,
+      "sha256": "f5eaca5da0ea554865b3f95ad50ebd11d9e9c9f3378233a81ae882cce52f133d"
+    },
+    {
+      "path": "gw250114_v72_composite_closure_design.py",
+      "bytes": 34301,
+      "sha256": "31eeaa721eee9caba464a6fe421a5b8c4cff7b3e5cecf6e99e1d53262ddb5b79"
+    },
+    {
+      "path": "gw250114_v72_package_audit.py",
+      "bytes": 15756,
+      "sha256": "57aeeda91e67699748f2639f2294ce88ba6302b315c21b9e256f4d3154b66bb6"
+    },
+    {
+      "path": "gw250114_v72_raw_minus7m_finalize.py",
+      "bytes": 14671,
+      "sha256": "99c6e5c2529a8fc7b9470a940a78a92af071a7bf72e2e178ac126f487dd83997"
+    },
+    {
+      "path": "gw250114_v72_raw_minus7m_replay.py",
+      "bytes": 15179,
+      "sha256": "8d3d3e02915e8cf9691830e386fda093510d5a1d81662649971d07a31a64b09c"
+    },
+    {
+      "path": "gw250114_v72_raw_preflight.py",
+      "bytes": 13244,
+      "sha256": "f9a867ef486fc1937663568de4b542ccd79cd0f64f36cf375fbaae09d3562a54"
+    },
+    {
+      "path": "gw250114_v72_raw_surface_compare.py",
+      "bytes": 8854,
+      "sha256": "386bb02bd30d45df73b66575c65ff5b024438a1c2e55f964e7dfb701ed507b47"
+    },
+    {
+      "path": "gw250114_v72_verify_full_manifest.py",
+      "bytes": 7699,
+      "sha256": "b435bc8018a67e6fb981ef33c91063a5f6ace547ef1b5caba8b02b50d399de62"
+    },
+    {
+      "path": "pixi.lock",
+      "bytes": 292666,
+      "sha256": "c03b7bc6f4ef5e05e7d0d745c2abbe7c121d323a2e07eb104291340edb56b612"
+    },
+    {
+      "path": "pixi.toml",
+      "bytes": 567,
+      "sha256": "a0ebdd9478cec8fdf8d714ac15d4cd205250f987cc38a1d1617387570d32b6fd"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 158,
+      "sha256": "55bb63a2486c653f9e4c73d249a10ba3645e37e5fa962b2d8890799c10ad3814"
+    }
+  ]
+}

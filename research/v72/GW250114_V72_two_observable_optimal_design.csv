@@ -1,0 +1,6 @@
+design,q1,q2,b1,b2,sigma1,sigma2,resource,completion_determinant,rank_complete,optimal_fraction_channel1,optimal_fraction_channel2,allocation_status,maximum_efficient_information,minimum_q_eff_if_information_positive,qualification
+same_tau_response_common_free_timescale,1.0,1.0,1.0,1.0,1.0,1.0,100.0,0.0,False,0.5,0.5,NONUNIQUE_RANK_FAIL,0.0,inf,rank fail: common free log-timescale is identical to the tau tangent
+nonproportional_tau_responses_q1_1_q2_0p5,1.0,0.5,1.0,1.0,1.0,1.0,100.0,0.5,True,0.5,0.5,INTERIOR_MAXIMUM,6.25,0.4,illustrative g_i=t*F_i(tau) lane; no physical F_i supplied
+nonproportional_tau_responses_q1_1_q2_2,1.0,2.0,1.0,1.0,1.0,1.0,100.0,-1.0,True,0.5,0.5,INTERIOR_MAXIMUM,25.0,0.2,illustrative g_i=t*F_i(tau) lane; no physical F_i supplied
+nonproportional_tau_responses_unequal_noise,1.0,0.5,1.0,1.0,1.0,2.0,100.0,0.5,True,0.3333333333333333,0.6666666666666667,INTERIOR_MAXIMUM,2.7777777777777777,0.6,illustrates noise-weighted resource allocation
+nuisance_free_second_anchor,1.0,1.0,0.5,0.0,1.0,1.0,100.0,-0.5,True,0.0,1.0,OPEN_DOMAIN_SUPREMUM_NOT_ATTAINED,100.0,0.1,open-allocation supremum as channel-1 resource tends to zero from above; the n_i>0 theorem has no attained boundary maximum

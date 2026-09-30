@@ -1,0 +1,5 @@
+case,n_detectors,individual_alias_coefficients,best_common_alias_coefficient,common_nuisance_efficient_information,detector_specific_nuisance_information,common_information_ge_specific,common_alias_survives,qualification
+same_alias_coefficient_replication,2,2;2,2.0,0.0,0.0,True,True,same coefficient a=2 works in both detectors; replication cannot complete
+conflicting_alias_coefficients_shared_nuisance,2,1;2,1.5,0.5,0.0,True,False,"each detector aliases alone, but no common coefficient fits both"
+conflicting_aliases_unequal_variance,2,1;2,1.2,0.2,0.0,True,False,same conflict with weaker second detector
+single_delay_common_scale_alias,3,1;1;1,1.0,0.0,0.0,True,True,abstracted v69 tangent geometry: common coefficient preserves the local linear alias; the separate v69 finite gauge supplies exact global nonidentifiability

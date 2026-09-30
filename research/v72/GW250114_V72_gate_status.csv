@@ -1,0 +1,25 @@
+gate,status,admitted,qualification
+canonical_v71_parent_integrity,PASS,true,uploaded master and standalone hashes plus ZIP CRC verified
+frozen_official_input_integrity,PASS,true,local SHA-256 values plus official Zenodo MD5 values verified where published
+raw_python311_environment,PASS_FAIL_CLOSED_PREFLIGHT,true,actual runtime queried and imported qnm_filter commit tree path and clean tracked state verified before grid evaluation
+raw_preflight_self_test,PASS_9_OF_9,true,frozen hashes official MD5 values HDF5 schemas runtime and source binding verified
+raw_finalizer_self_test,PASS_16_OF_16,true,stored preflight replay artifacts axes maxima additivity and hashes verified
+fresh_replay_surface_comparison,PASS_26_OF_26,true,all axes and maxima exact largest centered surface difference 3.07161e-7 below declared 1e-5 threshold
+fixed_conditioning_raw_minus7M_grid_cache_reproduction,PASS,true,3400 points same maximum centered max residual below 7.8e-5 logL in recovered and fresh replays
+full_nature_directwave_inference,NOT_REPRODUCED,false,no marginalization template SNR posterior or other start-time lane replay
+conditional_raw_pointwise_detector_quadratic_arithmetic,PASS_DIAGNOSTIC_ONLY,true,max absolute error 1.13687e-13 implementation identity under common released row and preprocessing with no absolute detector normalization claim
+conditional_H1_L1_directwave_surfaces,PASS_DIAGNOSTIC_ONLY,true,common released posterior-row remnant sky time point
+released_point_selection_robustness,MATERIAL_SENSITIVITY_NOT_RESOLVED,false,network damping maximum shifts 450 to 420 per second across two released-row objectives
+detector_specific_remnant_QNM_inference,NOT_EXECUTED,false,conditional common point is not detector-only inference
+v69_single_delay_structural_identification,EXACT_FAIL_RETAINED,false,product gauge survives
+unrestricted_continuous_tau_uniform_separation,EXACT_FAIL_BY_CLOSURE,false,randomized minimax maximum error one half for the fixed TV-continuous experiment
+continuous_tau_resolution_definition,NOT_PREREGISTERED,false,two-sided exclusion requires both endpoint lanes interval or equivalence needs declared error semantics or use a normalized prior
+finite_composite_least_favorable_framework,PASS_METHOD_ONLY,true,not a composite Bayes factor and not yet applied to real nuisance images
+finite_competitor_bank,NOT_PREREGISTERED,false,multiplicity table is a design budget
+two_observable_optimal_design,PASS_THEOREM_ONLY,true,no second calibrated physical observable has been supplied
+global_nonlinear_nuisance_image_distance,NOT_MEASURED,false,requires real joint likelihood and bounded physical domains
+same_event_product_anchor_covariance,NOT_MEASURED,false,v71 rescue envelope only
+generative_HRF_likelihood,INCOMPLETE,false,no raw branch evidence computed
+nonregular_no_extra_HRF_null,NOT_CALIBRATED,false,delay disappears at zero extra-HRF amplitude
+physical_ln4_g4_area_quantization_interpretation,LOCKED,false,no physical or discovery claim
+new_publication_recommendation,WAIT,false,next milestone should be observable-complete or a documented official-workflow negative result

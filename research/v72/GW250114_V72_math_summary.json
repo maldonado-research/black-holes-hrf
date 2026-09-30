@@ -1,0 +1,59 @@
+{
+  "affine_nuisance_formula": "d^2=delta^T[K^-1-K^-1C(C^TK^-1C)^+C^TK^-1]delta",
+  "claim_boundary": "No HRF detection, no ln(4)/g=4 identification, no area quantization, and no quantum-horizon claim.",
+  "continuous_alternative": {
+    "required_repair": "preregistered exclusion radius with an indifference gap, an interval/equivalence procedure with its own coverage or type-I semantics, or a normalized-prior Bayes model with sensitivity analysis",
+    "status": "EXACT_FAIL_BY_CLOSURE_WITHOUT_EXCLUSION_RADIUS",
+    "uniform_minimax_max_error": 0.5,
+    "unrestricted_punctured_continuum_uniform_distance": 0.0
+  },
+  "date": "2026-07-12",
+  "detector_rule": "individually locally aliased detectors have positive shared-nuisance tangent information only if no common linear nuisance coefficient fits every detector; global identification requires a separate nuisance-image check",
+  "gate_status": {
+    "finite_composite_least_favourable_framework": "PASS_METHOD_ONLY",
+    "global_nuisance_distances_from_real_joint_likelihood": "NOT_MEASURED",
+    "physical_interpretation": "LOCKED",
+    "raw_detector_factorization": "NOT_EXECUTED",
+    "two_observable_experimental_design": "THEOREM_ONLY_NO_SECOND_PHYSICAL_OBSERVABLE",
+    "unrestricted_continuous_tau_uniform_separation": "EXACT_FAIL_BY_CLOSURE"
+  },
+  "generated_table_counts": {
+    "affine_examples": 5,
+    "bias_frontier": 7,
+    "continuous_closure": 10,
+    "detector_alias": 4,
+    "exclusion_precision": 4,
+    "least_favourable_lanes": 5,
+    "multiplicity": 6,
+    "two_observable_design": 5
+  },
+  "historical_branch_geometry": {
+    "delta_log_tau": 0.004355437628170275,
+    "tau_old_competitor": 1.3802695723157803,
+    "tau_target_ln4": 1.3862943611198906
+  },
+  "scope": "methods-only deterministic theorem and numerical feasibility package; no strain analysis",
+  "self_test": {
+    "n_passed": 17,
+    "n_tests": 17,
+    "status": "PASS"
+  },
+  "strict_least_favourable_gate": {
+    "max_q_eff_at_old_gap": 0.0011519090213259128,
+    "max_q_eff_at_old_gap_percent": 0.11519090213259128,
+    "required_distance": 3.7810604375308374,
+    "scope": "one preregistered named competitor",
+    "score_margin": 2.302585092994046,
+    "target_probability": 0.9
+  },
+  "two_observable_completion_rule": "q1*b2-q2*b1 != 0 for one shared local nuisance",
+  "two_sided_exclusion_gate_at_historical_gap": {
+    "endpoint_competitors": 2,
+    "joint_target_probability_lower_bound": 0.9,
+    "max_q_eff_at_old_gap": 0.001001552391152782,
+    "max_q_eff_at_old_gap_percent": 0.1001552391152782,
+    "required_distance_each_endpoint": 4.348686765309588
+  },
+  "verdict": "COMPOSITE_GATE_REQUIRES_RESOLUTION_AND_REAL_JOINT_NUISANCE_IMAGES",
+  "version": "GW250114_HRF_v72_math"
+}

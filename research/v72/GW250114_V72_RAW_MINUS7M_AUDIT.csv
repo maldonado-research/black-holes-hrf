@@ -1,0 +1,7 @@
+mode,surface,frequency_hz,damping_rate_s_inv,decay_time_ms,log_likelihood,posterior_row_index,conditional_only
+released_logL_plus_logprior,H1,200.0,390.0,2.5641025641025643,-821.0721599373513,10740,True
+released_logL_plus_logprior,L1,198.0,510.0,1.9607843137254901,-730.8833294457074,10740,True
+released_logL_plus_logprior,network,200.0,450.0,2.2222222222222223,-1553.362345798233,10740,True
+maximum_log_likelihood_released_row,H1,202.0,360.0,2.7777777777777777,-822.2049407361278,19989,True
+maximum_log_likelihood_released_row,L1,202.0,480.0,2.0833333333333335,-724.595579462015,19989,True
+maximum_log_likelihood_released_row,network,200.0,420.0,2.380952380952381,-1548.6112090769088,19989,True
