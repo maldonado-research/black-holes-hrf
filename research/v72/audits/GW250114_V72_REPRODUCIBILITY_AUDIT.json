@@ -1,0 +1,150 @@
+{
+  "version": "GW250114_HRF_v72_package_audit",
+  "date": "2026-07-12",
+  "status": "PASS",
+  "passed": 28,
+  "total": 28,
+  "tests": [
+    {
+      "name": "math_self_tests",
+      "passed": true,
+      "detail": "17/17"
+    },
+    {
+      "name": "raw_self_tests",
+      "passed": true,
+      "detail": "16/16"
+    },
+    {
+      "name": "math_submanifest",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "math_generator_hash",
+      "passed": true,
+      "detail": "name=gw250114_v72_composite_closure_design.py, sha256=31eeaa721eee9caba464a6fe421a5b8c4cff7b3e5cecf6e99e1d53262ddb5b79"
+    },
+    {
+      "name": "raw_submanifest",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "continuous_closure_exact_values",
+      "passed": true,
+      "detail": "distance=0.0, error=0.5"
+    },
+    {
+      "name": "one_competitor_strict_distance",
+      "passed": true,
+      "detail": "scope=one preregistered named competitor; D=3.7810604375308374"
+    },
+    {
+      "name": "one_competitor_historical_gap_width",
+      "passed": true,
+      "detail": "0.11519090213259128"
+    },
+    {
+      "name": "two_sided_endpoint_distance",
+      "passed": true,
+      "detail": "K=2; D=4.348686765309588"
+    },
+    {
+      "name": "two_sided_historical_gap_width",
+      "passed": true,
+      "detail": "0.1001552391152782"
+    },
+    {
+      "name": "raw_grid_shape",
+      "passed": true,
+      "detail": "[85, 40]"
+    },
+    {
+      "name": "raw_and_cache_same_maximum",
+      "passed": true,
+      "detail": "raw=(200.0,450.0), cache=(200.0,450.0)"
+    },
+    {
+      "name": "detector_additivity",
+      "passed": true,
+      "detail": "max_abs=1.137e-13"
+    },
+    {
+      "name": "cache_residual",
+      "passed": true,
+      "detail": "centered_max_abs=7.734e-05"
+    },
+    {
+      "name": "row_sensitivity_detected",
+      "passed": true,
+      "detail": "released=450.0, ML-row=420.0"
+    },
+    {
+      "name": "summary_raw_residual_consistency",
+      "passed": true,
+      "detail": "7.73435551522706e-05"
+    },
+    {
+      "name": "summary_distance_consistency",
+      "passed": true,
+      "detail": "3.7810604375308374"
+    },
+    {
+      "name": "summary_two_sided_consistency",
+      "passed": true,
+      "detail": "D=4.348686765309588; q%=0.1001552391152782"
+    },
+    {
+      "name": "fixed_conditioning_scope",
+      "passed": true,
+      "detail": "complete fixed-conditioning -7M 85x40 grid; not the full Nature inference"
+    },
+    {
+      "name": "full_nature_inference_not_reproduced",
+      "passed": true,
+      "detail": "full_nature_inference=NOT_REPRODUCED"
+    },
+    {
+      "name": "no_polarization_filter_attribution",
+      "passed": true,
+      "detail": "explicit no-pass qualification=True; filter-call psi/polarization keywords=none"
+    },
+    {
+      "name": "raw_preflight_receipt",
+      "passed": true,
+      "detail": "status=PASS"
+    },
+    {
+      "name": "fresh_replay_comparison_receipt",
+      "passed": true,
+      "detail": "status=PASS"
+    },
+    {
+      "name": "preflight_and_comparator_scripts_present",
+      "passed": true,
+      "detail": "ok"
+    },
+    {
+      "name": "all_json_parse",
+      "passed": true,
+      "detail": "13 files; ok"
+    },
+    {
+      "name": "all_csv_parse_nonempty",
+      "passed": true,
+      "detail": "13 files, 97 data rows; ok"
+    },
+    {
+      "name": "png_integrity_and_dimensions",
+      "passed": true,
+      "detail": "GW250114_V72_RAW_MINUS7M_DETECTOR_NETWORK_AUDIT.png:2160x1296; GW250114_V72_continuous_closure.png:1296x846; GW250114_V72_exclusion_precision_budget.png:1332x846; GW250114_V72_multiplicity_precision_budget.png:1296x846; GW250114_V72_two_observable_design.png:1296x846"
+    },
+    {
+      "name": "physical_gate_locked",
+      "passed": true,
+      "detail": "status=LOCKED, admitted=false"
+    }
+  ],
+  "claim_boundary": "Internal reproducibility only; no HRF detection or physical branch claim."
+}
