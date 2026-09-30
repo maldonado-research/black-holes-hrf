@@ -1,5 +1,8 @@
 # Black Holes: Quantized Horizon Response (HRF)
 
+[Readable project overview](https://maldonado-research.github.io/projects/black-holes-hrf/) · [All research projects](https://maldonado-research.github.io/)
+
+
 **A research hypothesis, its statistical limits, and reproducible methods for GW250114.**
 
 By [Ricardo Maldonado](https://orcid.org/0009-0009-3937-6527). This repository distributes the published **Zenodo v5.3 / research package v72**, with readable source files and an offline integrity check. The GitHub companion was prepared on September 30, 2026; the scientific archives remain unchanged.
