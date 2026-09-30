@@ -1,0 +1,79 @@
+{
+  "schema": "GW250114_HRF_ZENODO_V5_3_PUBLICATION_FILES_1",
+  "prepared_date": "2026-09-05",
+  "publication_status": "PREPARED_NOT_SUBMITTED",
+  "research_package": "v72",
+  "proposed_zenodo_version": "v5.3",
+  "scope": "Methods and reproducibility only; original v72 archives unchanged; not a new raw-strain analysis or discovery",
+  "manifest_excludes": [
+    "PUBLICATION_FILES_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "files": [
+    {
+      "filename": "GW250114_MASTER_PROGRESS_BUNDLE_v72.zip",
+      "bytes": 3895663,
+      "sha256": "f1dcdd78c619b8f0e39eace371cda17eb486a2ae9c5257c6672216cd2dbfcc2a"
+    },
+    {
+      "filename": "GW250114_MASTER_PROGRESS_BUNDLE_v72.zip.sha256",
+      "bytes": 106,
+      "sha256": "1caa1dece3645502aac0368f8eedefb8578f601201aed981c7188262642182ee"
+    },
+    {
+      "filename": "GW250114_V5_3_PUBLICATION_VERIFICATION_SUPPLEMENT.zip",
+      "bytes": 11250,
+      "sha256": "74f8cf8f4326e60344c6971895a4e4508286ea727ec99aad75feb5de54fdda5b"
+    },
+    {
+      "filename": "GW250114_V5_3_READER_GUIDE.pdf",
+      "bytes": 48091,
+      "sha256": "0d47645b921ff26433e00a6dc54eb818d2a230b9deea4d1385c2e5e73d6b03c6"
+    },
+    {
+      "filename": "GW250114_V72_COMPOSITE_CLOSURE_LEAST_FAVORABLE_SEPARATION_AND_RAW_REPLAY.md",
+      "bytes": 15530,
+      "sha256": "1e4e195443405f47b79cc95b6edc15d061fb15fee94f2954a328eb0b0a5ed275"
+    },
+    {
+      "filename": "GW250114_V72_FINAL_RELEASE_VERIFICATION.md",
+      "bytes": 1791,
+      "sha256": "61d8b6850ada6db1d5d1293e0e0a7e1e8af27c60ee230b8d927af742c3b71041"
+    },
+    {
+      "filename": "GW250114_V72_ONE_PAGE_CERTIFICATE.md",
+      "bytes": 4596,
+      "sha256": "e2ec5b0a2d6e5aa8d3776c2f76bab0f457f4bdda881e45cf72ec308a35948275"
+    },
+    {
+      "filename": "GW250114_V72_PUBLICATION_AUDIT_2026-09-05.md",
+      "bytes": 9587,
+      "sha256": "65e130b908de8af0f2fbff9c26a8b728bdf93a8dc28b97122a2e87a08e16a469"
+    },
+    {
+      "filename": "GW250114_V72_RECOVERY_REDTEAM_AUDIT.md",
+      "bytes": 7167,
+      "sha256": "3558335257a90fc1784a7436eacbdd28d41d1dc96b217728852004878271ab16"
+    },
+    {
+      "filename": "HRF_V72_COMPOSITE_CLOSURE_LEAST_FAVORABLE_SEPARATION_AND_RAW_REPLAY.zip",
+      "bytes": 837155,
+      "sha256": "1dc2f45c53a4341a2ea1da7e72f20dfb616eec27ded50407c9844ba8a859d629"
+    },
+    {
+      "filename": "HRF_V72_COMPOSITE_CLOSURE_LEAST_FAVORABLE_SEPARATION_AND_RAW_REPLAY.zip.sha256",
+      "bytes": 138,
+      "sha256": "8b205f387aad6f915dea2c5b17498d5736f82688d1bb16cfb3ec394ad32f9c4d"
+    },
+    {
+      "filename": "NEXT_ANALYSIS_PROTOCOL_DRAFT.md",
+      "bytes": 12651,
+      "sha256": "d1ee4fc9638a6a97849bd92039d2daec3f5d77939ef2dca285464cd539615f33"
+    },
+    {
+      "filename": "START_HERE_V5_3_METHODS_RELEASE.md",
+      "bytes": 8101,
+      "sha256": "42529a4d6957cdca7bb9a7112957504a1bbd9acbd6e344c06745a6c08bcd5d2d"
+    }
+  ]
+}
