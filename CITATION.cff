@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the published Zenodo v5.3 release when using this research package."
+type: software
+title: "Quantized Horizon Response (HRF): Composite-Alternative Separation and Fixed-Conditioning GW250114 Replay - v5.3"
+authors:
+  - family-names: Maldonado
+    given-names: Ricardo
+    orcid: "https://orcid.org/0009-0009-3937-6527"
+version: v5.3
+date-released: 2026-09-05
+doi: 10.5281/zenodo.22400638
+url: "https://zenodo.org/records/22400638"
+repository-code: "https://github.com/maldonado-research/black-holes-hrf"
+license: CC-BY-4.0
+abstract: >-
+  Methods and reproducibility release for the quantized horizon-response
+  hypothesis. Includes composite-alternative separation arguments, Gaussian
+  design calculations, and archived fixed-conditioning GW250114 replay
+  evidence. No HRF detection or exact ln(4) identification is established.
+keywords:
+  - black hole ringdown
+  - GW250114
+  - horizon response function
+  - statistical identifiability
+  - composite hypothesis testing
+  - reproducibility
